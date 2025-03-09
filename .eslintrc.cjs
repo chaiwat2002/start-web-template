@@ -30,6 +30,7 @@ module.exports = {
     "import/extensions": "off",
     "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "prettier/prettier": ["error", { semi: false }],
+    semi: ["error", "never"],
   },
   settings: {
     react: {
